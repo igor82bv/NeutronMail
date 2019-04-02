@@ -1,0 +1,72 @@
+@font-face {
+  font-family: MyriadPro-Regular; 
+  src: url('../assets/fonts/MyriadPro-Regular.ttf');
+}
+@font-face {
+  font-family: TitilliumWeb-Bold; 
+  src: url('../assets/fonts/titillium/TitilliumWeb-Bold.ttf');
+}
+@font-face {
+  font-family: TitilliumWeb-Regular; 
+  src: url('../assets/fonts/titillium/TitilliumWeb-Regular.ttf');
+}
+
+body {
+  /* font-family: 'Titillium Web', sans-serif;
+  font-weight: 700; */
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family:  MyriadPro-Regular, sans-serif;  
+  font-size: 1.2rem;
+  /* background-color: rgb(184, 132, 68); */
+  height: 3141px; 
+
+}
+
+.header, .main, .security, .any-device, .privacy, .footer {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background: url(../assets/img/bg-header.png) no-repeat 50%;
+  background-size: cover;
+  background-color: rgb(83, 79, 74);
+  color: #fff;
+  height: 785px;
+}
+
+.main {
+  flex-direction: column;
+  /* background-color: rgb(18, 20, 24); */
+  color: #fff;  
+}
+
+.security {
+  background-color: rgb(151, 13, 117);
+  color: #fff;
+  height: 597px;
+} 
+
+.any-device {
+  background: url(../assets/img/Layer\ 30.png) no-repeat;
+  background-size: cover;  
+  background-color: rgb(130, 206, 60);
+  color: #fff;
+  height: 829px;
+} 
+
+.privacy {
+  /* background-color: rgb(69, 110, 177); */
+  color: #fff;
+  height: 327px;
+}
+
+.footer {
+  /* background-color: rgb(41, 24, 3); */
+  color: #fff;
+  height: 603px;
+}
