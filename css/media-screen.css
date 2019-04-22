@@ -1,12 +1,197 @@
-@media screen and (max-width: 1024px) {
-	
+@media screen and (max-width: 1400px) {
+  .head-encryption::before,
+  .any-device::before,
+  .privacy::before  {
+    display: none;
+  }  
+  .security {    
+    margin: 0px 15%;
 }
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 1200px) {
+  .header-top {
+    margin: 45px 10%;
+  }
+  .header-nav-language {
+    margin: 0px 10%;
+  }
+  
+  .user-autofication {
+    margin-left: 0 auto;
+  }
+
+  .security {
+    margin: 0px 5%;
+  }
+  .security-encryption,
+  .head-privacy,
+  .security-physical {    
+    border-right: none;
+  }
+  .lern-more {
+    display: none;
+  }
+  .security {       
+    grid-template-areas:     
+    "pri enc eml "       
+    "phy phy phy";
+  }
+  .journals-text {
+    margin: 0 auto;
+  }
+  .footer {   
+    width: 100%;
+  }
+
+  .bottom-part,
+  .company, 
+  .legal,
+  .neutron-mail {
+    border: none;
+    text-align: center;
+  }
+
+  .contacts {    
+    border-left: none;
+  }
+
+  .bottom-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "con con con con" 
+    "com com com com" 
+    "leg leg leg leg"  
+    "mail mail mail mail"     
+    "foot foot foot foot"; 
+    margin: 20px;
+  }
+  
+}
+@media screen and (max-width: 992px) {
   body {
     font-size: 1rem;
   }	
+  .header-logo,  
+  .right-part,
+  .user-autofication {
+    margin: 8px auto;
+  }
+  .header-nav {
+    display: none;
+  }
+  .user-autofication a {    
+    line-height: 0;
+  }
+  .security {    
+    margin: 0px 20%;
+    grid-template-areas:     
+    "pri pri pri " 
+    "enc enc enc" 
+    "eml eml eml"   
+    "phy phy phy";
+  }
+  .security-physical-text-head,
+  .security-physical-text {
+    text-align: center;
+  }
+  .journals {   
+    text-align: center;
+  }
+  .journal img {
+    margin-left: 0px;
+  }
+
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
+  body {
+    font-size: .7rem;
+  }
+  .header-nav-language {
+    margin: 0px auto;
+  }
+  .btn-area {    
+    background: url('../assets/img/header-btn-bg.png') no-repeat center -60%;
+    margin-top: 80px;     
+  }
+  .header-baner .header-baner-head {
+    font-size: 30px;
+    margin: 70px auto 0px;
+  }
+  .header-baner .header-baner-text {
+    font-size: 16px;
+  }
+  .header-social-links {
+    display: none;
+  }
+  .journals {   
+   display: none;
+  }
+  .journals-text {
+    display: flex;
+    flex-direction: row;
+    
+    /* width: 943px;
+    height: 143px; */    
+  }
+  .any-device-app h3 {
+    text-align: center;    
+  }
+  .privacy-head h3  {
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  .privacy-head p {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: .7rem;
+  }
+  .header-social-links,
+  .security-physical {
+    display: none;
+  }
+  .journals-text {
+    display: none;
+  }
+  .buttons-store button {
+    height: 55px;
+    display: block;
+    width: 180px;
+    margin: 25px auto 0px;
+    cursor: pointer;
+    border: none;
+  }
+  .any-device-app {
+    width: auto;
+    color: #aeacac; 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .any-device-app p {
+    text-align: center;
+  }
+  .area-btn-donate {
+    margin: 0px 26px;
+  }
+  .area-btn-donate button {    
+    display: block;
+    margin: 20px auto;
+  }
+  .privacy-head p {
+  font-family: TitilliumWeb-Regular;
+  font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   body {
     font-size: .7rem;
   }
